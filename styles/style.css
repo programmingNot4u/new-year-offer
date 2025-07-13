@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Shared section */
+.container {
+  max-width: 80%;
+  margin: 0px auto;
+  background: repeating-linear-gradient(
+    90deg,
+    #ffe5e5,
+    #ffe5e5 60px,
+    white 20px,
+    white 90px
+  );
+
+  padding-top: 50px;
+}
+
+.sub-paragraph {
+  color: #736f79;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+/* header or banner section */
+.celebration-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.banner-text h1 {
+  font-size: 72px;
+  max-width: 632px;
+}
+.banner-text p {
+  font-size: 32px;
+}
+
+/* discount section */
+.discoutn-section {
+  margin: 170px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#discount-percentage {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 88px;
+}
+
+.discount-category {
+  text-align: center;
+  margin: 48px 0px;
+}
+
+.discount-category p {
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.discount-category h2 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#new-year-img {
+  max-width: 802px;
+  max-height: 500px;
+}
+
+/* Party Section */
+
+.party-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  border-radius: 10px;
+  margin-bottom: 106px;
+}
+
+.party-year {
+  max-width: 319px;
+  max-height: 464px;
+}
+
+.party-info {
+  color: white;
+  max-width: 642px;
+}
+
+.party-info h2 {
+  margin-bottom: 24px;
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  font-size: 64px;
+}
+.party-info p {
+  margin-bottom: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 60;
+  font-size: 18px;
+}
+
+.join-now-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* join-now-section */
+
+.join-now-section {
+  text-align: center;
+  background: linear-gradient(rgba(243, 80, 80, 0.1), rgba(0, 0, 0, 0.001));
+  padding: 100px 350px;
+  margin-bottom: 200px;
+  border-radius: 10px;
+}
+
+.join-now-section p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  padding: 10px;
+}
+
+.join-now-section p span {
+  color: red;
+}
+
+.join-btn {
+  border-radius: 10px;
+  background-color: #ff0000;
+  text-align: center;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.info {
+  margin-bottom: 48px;
+}
+
+/* offer section */
+.offer-section {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 103px;
+}
+
+.best-offer-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 16px;
+  color: #ff0000;
+}
+
+.comming-soon {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.comming-offer {
+  max-width: 392px;
+}
+
+.celebration-img {
+  width: 100%;
+}
+.celebrated-image-contianer {
+  padding: 30px;
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  max-width: 30%;
+}
+
+.new-year {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  padding-bottom: 16px;
+  color: #ff0000;
+}
+
+.group-96 {
+  width: 140px;
+  height: 140px;
+  margin-top: 26px;
+}
+.new-year-offer {
+  max-width: 276px;
+}
+
+/* holiday sale section */
+.holiday-sale-info {
+  text-align: center;
+  max-width: 1068px;
+  margin: 0px auto;
+}
+
+.holy-discounts-imges {
+  position: relative;
+ 
+   height: 350px;
+}
+
+.group-44 {
+ position: absolute;
+ right: 0px;
+ bottom: 0px;
+  height: 305px;
+  width: 305px;
+}
+
+.rectangle-2 {
+  width: 100%;
+  max-height: 230px;
+}
+.group-75 {
+ height: 500px;
+ width: 600px;
+ position: absolute; 
+top: 30px;
+}
